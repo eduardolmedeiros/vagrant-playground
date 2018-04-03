@@ -1,6 +1,6 @@
 ## tomcat vagrant sample
 
-This is a sample tomcat vagrant configuration managed by puppet provision.
+This is a sample tomcat vagrant configuration managed by puppet provision and r10k plugin to manage the puppet modules.
 
 
 ### 1. Install prerequisites
