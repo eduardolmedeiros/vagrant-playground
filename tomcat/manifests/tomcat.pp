@@ -14,9 +14,9 @@ node default {
   }
 
   # Install Tomcat
-	-> tomcat::install { "/opt/tomcat-${tomcat_release}":
-  			source_url => "http://apache.hippo.nl/tomcat/tomcat-${tomcat_version}/v${tomcat_release}/bin/apache-tomcat-${tomcat_release}.tar.gz"
-		}
+  ->  tomcat::install { "/opt/tomcat-${tomcat_release}":
+  	    source_url => "http://apache.hippo.nl/tomcat/tomcat-${tomcat_version}/v${tomcat_release}/bin/apache-tomcat-${tomcat_release}.tar.gz"
+      }
 
   # symlink
   ->  file { '/opt/tomcat':
