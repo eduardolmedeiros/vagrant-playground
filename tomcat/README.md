@@ -1,5 +1,8 @@
 ## tomcat vagrant sample
 
+This is a sample tomcat vagrant configuration managed by puppet provision.
+
+
 ### 1. Install prerequisites
 
 ```
