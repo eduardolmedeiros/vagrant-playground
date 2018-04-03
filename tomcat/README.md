@@ -55,7 +55,7 @@ http://local-ip:8080/hello/
 
 ### Provision
 
-needed for changes and updates:
+Needed for changes and updates:
 
 ```
 vagrant provision
