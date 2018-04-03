@@ -24,10 +24,10 @@ node default {
       }
 
   # Create instance
-	tomcat::instance { "tomcat-${instance_name}":
-  	catalina_home => "/opt/tomcat",
-  	catalina_base => "/opt/tomcat/${instance_name}",
-	}
+  tomcat::instance { "tomcat-${instance_name}":
+    catalina_home => "/opt/tomcat",
+    catalina_base => "/opt/tomcat/${instance_name}",
+  }
 
   # Deploy hello.war
   tomcat::war { $package:
