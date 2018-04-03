@@ -6,7 +6,7 @@ node default {
   $tomcat_release = "9.0.6"
   $instance_name = "app1"
   $package = "hello.war"
-  $package_source_url = "https://github.com/eduardolmedeiros/middleware-utils/raw/master/deploy%20examples/hello.war"
+  $package_source_url = "https://github.com/eduardolmedeiros/vagrant-playground/raw/master/tomcat/deploy/hello.war"
 
   # Install Java
   package  { $java_version:
