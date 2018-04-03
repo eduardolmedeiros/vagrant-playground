@@ -4,6 +4,14 @@ This is a sample tomcat vagrant configuration managed by puppet provision and r1
 
 ### 1. Install prerequisites
 
+Vagrant:
+
+```
+{dnf|yum|apt} install vagrant
+```
+
+Vagrant plugins:
+
 ```
 vagrant plugin install vagrant-puppet-install
 vagrant plugin install vagrant-r10k
