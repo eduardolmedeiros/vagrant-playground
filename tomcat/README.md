@@ -25,6 +25,18 @@ Check the file:
 manifest/tomcat.pp
 ```
 
+Variables:
+
+```
+# variables
+
+$java_version = "java-1.8.0-openjdk"
+$tomcat_version = "9"
+$tomcat_release = "9.0.6"
+$instance_name = "app1"
+$package = "hello.war"
+$package_source_url = "https://github.com/eduardolmedeiros/vagrant-playground/raw/master/tomcat/deploy/hello.war"
+```
 
 ### Testing deployment
 
