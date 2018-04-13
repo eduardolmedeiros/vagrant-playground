@@ -46,14 +46,14 @@ $package = "hello.war"
 $package_source_url = "https://github.com/eduardolmedeiros/vagrant-playground/raw/master/tomcat/deploy/hello.war"
 ```
 
-### Start
+### 4. Start
 
 ```
 cd tomcat
 vagrant up
 ```
 
-### Testing deployment
+### 5. Testing deployment
 
 http://local-ip:8080/hello/
 
