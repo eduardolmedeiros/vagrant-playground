@@ -23,8 +23,6 @@ vagrant plugin install vagrant-vbguest
 
 ```
 git clone https://github.com/eduardolmedeiros/vagrant-playground.git
-cd tomcat
-vagrant up
 ```
 
 ### 3. Configuration and settings
@@ -46,6 +44,13 @@ $tomcat_release = "9.0.6"
 $instance_name = "app1"
 $package = "hello.war"
 $package_source_url = "https://github.com/eduardolmedeiros/vagrant-playground/raw/master/tomcat/deploy/hello.war"
+```
+
+### Start
+
+```
+cd tomcat
+vagrant up
 ```
 
 ### Testing deployment
